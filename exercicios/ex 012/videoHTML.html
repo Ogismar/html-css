@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado localmente</p>
+   <!-- <video src="midia/Canion mp4.mp4" controls width="500"></video>-->
+    <video controls autoplay poster="imagens/canion.png"width="560">
+        <source src="midia/Canion webm.webm" type="video/webm">
+        <source src="midia/Canion mp4.mp4" type="video/mp4">
+        
+    </video>
+    <br>
+    <audio controls>
+        <source src="audio/musica1.mp3" stype="audio/mp3">
+    </audio>
+    <br>
+    <video controls autoplay poster="imagens/geleira.png" width="560">
+        <source src="midia/Geleira webm.webm" type="video/webm">
+        <source src="midia/Geleira mp4.mp4" type="video/mp4">
+        
+    </video><!--video 35-->
+    <br>
+    <audio controls>
+        <source src="audio/musica2.mp3" type="audio/mp3">
+    </audio> 
+    <h1>Inserindo videos do You Tube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/l5gl46P4gfU?si=x-t1DaqeOoOhsmRf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

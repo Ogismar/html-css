@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORE PERSONALIZADOS
+            # div
+           . class
+           : pseudo-class
+           :: pseudo-element
+           > clildrem */
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to right, #66D8E2, #6AE0EB );
+       } 
+       a {
+        text-decoration: none;
+        font-weight: bold;
+       }
+       a:visited {
+        color: rgb(243, 9, 192);
+       }
+       a:active {
+        color: yellow;
+       }
+       a:hover {
+        color: red;
+        text-decoration: underline;
+       }
+       a > p {
+        display: none;
+       }
+       a:hover > p {
+         display: block;
+         color: rgb(31, 28, 233);
+         text-decoration: underline;
+       }
+       .github::after{
+        content: "♻";
+       }
+       .buda::after{
+        content:"☸"; 
+       }
+       .embraer::after {
+        content: "✈";
+       }
+    
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/" target="_blank" rel="external" class="github">Repositório do GetHub  </a></li>
+        <li><a href="https://www.youtube.com/@EssenceofBuddhistPhilosophy2" target="_blank " rel="external"           class="buda"> Canal do buda </a></li>
+        <li><a href="https://embraer.com/br/pt" target="_blank" rel="external"class="embraer"> Embraer <p class="embraer">A Embraer nasceu de um sonho. O sonho de transformar o Brasil em um país com a mais alta tecnologia em aviação.</p</a></li>
+    </ul>
+</body>
+</html>

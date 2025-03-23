@@ -13,43 +13,35 @@ header{
     text-align: center;
     height: 150px;
 }
-header > p{
-    text-align: center;
-    
-}
+
 
 header > h1{
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(50%, 50%);
-    
+    top: 10%;
+    transform: translate(-100px, 0px); 
+}
+
+header > p{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-100px, 0px); 
+}
+
+header > a{
+    text-decoration: none;
+    color: white;
 }
 
 body{
     background-color: white
 }
-#contem1{
-    height: 200px;
-    width: 300px;
+.contem{
+    height: 400px;
+    width: 400px;
     padding: 10px;
     background-color: blueviolet;
+    margin-left: 50px;
 }
-#contem3{
-    height: 200px;
-    width: 300px;
-    padding: 10px;
-}#contem5{
-    height: 200px;
-    width: 300px;
-    padding: 10px;
-}
-#contido2{
-    height: 200px;
-    width: 300px;
-    padding: 10px;
-}#contido4{
-    height: 200px;
-    width: 300px;
-    padding: 10px;
-}
+

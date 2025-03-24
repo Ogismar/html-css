@@ -38,10 +38,40 @@ body{
     background-color: white
 }
 .contem{
-    height: 400px;
-    width: 400px;
-    padding: 10px;
+    height: 1100px;
+    width: 1100px;
+    padding: 30px;
     background-color: blueviolet;
     margin-left: 50px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+#contem2{
+    background-image: url('../imagens/background001.jpg');  
+    height: 1100px;
+    width: 1100px;
+    padding: 30px;
+    margin-left: 50px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+#contem4{
+    height: 100vh;
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    height: 1100px;
+    width: 1100px;
+    padding: 30px;
+    margin-left: 50px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }
 

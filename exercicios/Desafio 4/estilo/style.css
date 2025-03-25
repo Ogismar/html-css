@@ -28,14 +28,43 @@ header > p{
     padding-bottom: 50px;
 }
 
-a{
+header a, footer a{
      color: white;
      text-decoration: none;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+    color: rgb(241, 11, 11);
+}
+
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+.normal{
+   background-color: white; 
+}
+
+.imagem{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.514);
+
 }
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
     

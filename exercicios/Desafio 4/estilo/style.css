@@ -77,8 +77,14 @@ section{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.315);
-    
+}
 
+#img001{
+   background-image: url(../imagens/background001.jpg); 
+}
+
+#img002{
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer{

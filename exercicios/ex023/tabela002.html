@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        th , td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        thead, tfoot{
+            background-color: chocolate;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de tabela grande</h1>
@@ -19,17 +38,40 @@
             -->
     <table>
         <thead>
-               <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-               </tr>
+                <tr>
+                    <th> Estado</th>
+                    <th>Populaçao</th>
+                    <th>% do total</th>
+                </tr>
         </thead>
         <tbody>
-
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45.973.194</td>
+                    <td class="num">21,63% </td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">20.539.989</td>
+                    <td class="num">10,03%</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17.219.679</td>
+                    <td class="num">8,10%</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="num">14 850 513</td>
+                    <td class="num">6,99%</td>
+                </tr>
         </tbody>
         <tfoot>
-
+                <tr>
+                    <th>Habtante e Porcentagem</th>
+                    <td>83.731762.000</td>
+                    <td>39,75%</td>
+                </tr>
         </tfoot>
     </table>
 </body>

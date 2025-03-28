@@ -11,6 +11,8 @@
         table{
             border-collapse: collapse;
             width: 500px;
+            
+            
         }
         th , td{
             border: 1px solid black;
@@ -19,8 +21,26 @@
         thead, tfoot{
             background-color: chocolate;
         }
+        tbody > tr:nth-child(odd) /* 2n-1 */                               
+        {
+            background-color: rgb(131, 99, 99);
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even) /*2n*/
+        {
+            background-color: rgb(94, 94, 194);
+            font-weight: bold;
+        }
+
+
         .num{
             text-align: right;
+        }
+        caption{
+            background-color: rgb(126, 122, 122);
+            color: black;
+            padding: 5px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -29,6 +49,7 @@
     <!--
     ANATOMIA PARA TABELA GRANDE
         TABLE
+        CAPTION
             THEAD
                 TR, TD, TH
             TBADY
@@ -37,11 +58,12 @@
                 TR, TD, TH 
             -->
     <table>
+        <Caption>Populaçao da unidades federativas</Caption>
         <thead>
                 <tr>
-                    <th> Estado</th>
-                    <th>Populaçao</th>
-                    <th>% do total</th>
+                    <th scope="col"> Estado</th>
+                    <th scope="col" style="width: 100px;">Populaçao</th>
+                    <th scope="col" style="width: 100px;">% do total</th>
                 </tr>
         </thead>
         <tbody>
@@ -68,9 +90,9 @@
         </tbody>
         <tfoot>
                 <tr>
-                    <th>Habtante e Porcentagem</th>
+                    <th scope="row">Habtante e Porcentagem</th>
                     <td>83.731762.000</td>
-                    <td>39,75%</td>
+                    <td style="text-align: right;">39,75%</td>
                 </tr>
         </tfoot>
     </table>

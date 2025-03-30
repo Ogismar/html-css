@@ -4,32 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <STyle>
+
+            table{
+                border-collapse: collapse;
+                width: 500px;
+            }
+
+            td{
+                border: 1px solid black;
+                padding: 5px ;
+                text-align: center;
+            }
+    </STyle>
 </head>
 <body>
     <h1>Mesclagem de Tabela</h1>
     <table>
-        <thead>
-            <tr>
-                <th></th>
-                <td></td>
-                <td></td>
-            </tr>
-        </thead>
+        
         <tbody>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>A</td>
+                <td colspan="2n">B</td>
+                
             </tr>
-            <tr></tr>
-            <tr></tr>
-        </tbody>
-        <tfoot>
             <tr>
-                <th></th>
-                <td></td>
+                <td rowspan="3n">D</td>
+                <td>E</td>
+                <td rowspan="2n">F</td>
             </tr>
-        </tfoot>
+            <tr>
+                
+                <td>H</td>
+                
+            </tr>
+            <tr>
+                
+                
+                <td colspan="2n">M</td>
+            </tr>
+        </tbody>
+        
     </table>
 </body>
 </html>

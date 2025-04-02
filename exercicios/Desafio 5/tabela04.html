@@ -13,6 +13,14 @@
             border-collapse: collapse;
             
         }
+        thead{
+           background-color: grey; 
+           color: white;
+        }
+        .media{
+            background-color: grey;
+            color: white;
+        }
         th, td{
             border: 1px solid black;
             padding: 10px;
@@ -62,26 +70,32 @@
                 </tr>
                 
             
-                <tr>
+                <tr class="media">
                     <td colspan="5n">Média da Exatas</td>
                     <td>0,0</td>
                 </tr>
+
         
                 <tr>
                     <th rowspan="2n">Humanas</th>  
                     <td colspan="2n">História</td>
-                    
-                    <td colspan="2n">Geográfia</td>
+                    <td>0,0</td> 
+                    <td>0,0</td> 
+                    <td>0,0</td> 
                 </tr>
                 <tr>
-                    <th colspan="4n">Média das Humanas</th>
+                    <td colspan="2n">Geográfia</td>
                     <td>0,0</td>
-                    
+                    <td>0,0</td>
+                    <td>0,0</td>
                 </tr>
-            
-            
-        </tbody>
-        
+
+
+                <tr class="media">
+                    <td colspan="5n">Média das Humanas</td>
+                    <td>0,0</td>  
+                </tr>  
+            </tbody> 
     </table>
 </body>
 </html>

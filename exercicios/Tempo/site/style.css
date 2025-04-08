@@ -12,11 +12,54 @@
     --cor4:#9E020F;
     --cor5:#7C010B;
     --cor6:#5A0108;
-    
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-primária:"Wallpoet", sans-serif;
+   
 }
 
 * {
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--font-padrao);   
+}
+header{
+    height: 150px;
+    font-family: var(--font-primária);
+    background: linear-gradient(to bottom, #EB0215, #7C010B);
+    text-align: center;
+    border: 5px, 5cm 20px black;
     
+}
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+}
+nav > a{
+    
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: blueviolet;
+    padding: 10px, 20px;
+}
+
+main{
+    max-width: 400px;
+    height: 800px;
+    margin: auto;
+}
+
+footer{
+    background-color: var(--cor6);
+    color: white;
+    text-align: center;
+}
+
+footer >a{
+    
+}

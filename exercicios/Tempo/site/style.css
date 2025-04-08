@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Wallpoet&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root{
+    --cor0:#EB8D0A;
+    --cor1:#E20215;
+    --cor2:#C00212;
+    --cor3:#EB0215;
+    --cor4:#9E020F;
+    --cor5:#7C010B;
+    --cor6:#5A0108;
+    
+}
+
 * {
     margin: 0px;
     padding: 0px;

@@ -31,35 +31,45 @@ header{
     font-family: var(--font-primária);
     background: linear-gradient(to bottom, #EB0215, #7C010B);
     text-align: center;
-    border: 5px, 5cm 20px black;
-    
+    border: 5px, 5px 20px black; 
 }
+
+
 nav{
     background-color: var(--cor5);
     padding: 10px;
+    position: ;
 }
 nav > a{
-    
+    padding: 8px ;
     color: white;
     text-decoration: none;
+    
 }
-a:hover{
-    background-color: blueviolet;
+nav > a:hover{
+    background-color: rgb(248, 8, 8);
     padding: 10px, 20px;
+    border-radius: 8px;
 }
 
 main{
     max-width: 400px;
     height: 800px;
     margin: auto;
+    border: 5px, 5px, 20pv var(--cor6);
 }
 
 footer{
     background-color: var(--cor6);
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
-footer >a{
-    
+footer > a{
+    text-decoration: none;
+    color: white;
+}
+footer > a{
+
 }

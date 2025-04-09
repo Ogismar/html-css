@@ -74,6 +74,9 @@ main > aside{
     text-align: center;
     color: white;
 }
+main > p{
+    text-indent: 30px;
+}
 
 #img1{
     width: 60%;

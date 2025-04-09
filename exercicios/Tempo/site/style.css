@@ -30,8 +30,13 @@ header{
     height: 150px;
     font-family: var(--font-primária);
     background: linear-gradient(to bottom, #EB0215, #7C010B);
-    text-align: center;
     border: 5px, 5px 20px black; 
+    text-align: center;
+}
+header > h1{
+    font-family: var(--font-primária);
+    font-size: 3.3em;
+    
 }
 
 
@@ -47,29 +52,47 @@ nav > a{
     
 }
 nav > a:hover{
-    background-color: rgb(248, 8, 8);
+    background-color: var(--cor3);
     padding: 10px, 20px;
     border-radius: 8px;
 }
 
 main{
-    max-width: 400px;
-    height: 800px;
+    max-width: 600px;
+    height: 1000px;
     margin: auto;
+    padding: 20px;
+    background-color: var(--cor3);
     border: 5px, 5px, 20pv var(--cor6);
+    font-size: 1.3em;
 }
+
+main > aside{
+    background-color: var(--cor5);
+    border: 5px, 5px, 10px black;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#img1{
+    width: 60%;
+    height: auto;
+    
+}
+#ing2{
+    width: 60%;
+    height: auto;
+}   
 
 footer{
     background-color: var(--cor6);
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 footer > a{
     text-decoration: none;
     color: white;
-}
-footer > a{
-
 }

@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Wallpoet&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Wallpoet&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Passion+One:wght@400;700;900&family=Sriracha&family=Wallpoet&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 :root{
@@ -13,7 +16,9 @@
     --cor5:#7C010B;
     --cor6:#5A0108;
     --font-padrao: Arial, Helvetica, sans-serif;
-    --font-primária:"Wallpoet", sans-serif;
+    --font-primária1:"Wallpoet", sans-serif;
+    --font-primaria2:"Audiowide", sans-serif;
+    --font-primaria3:"Cinzel Decorative", serif;
    
 }
 
@@ -32,8 +37,8 @@ header{
     
 }
 header > h1{
-    font-family: var(--font-primária);
-    font-size: 3.3em;
+    font-family: var(--font-primaria3);
+    font-size: 4em;
     text-align: center;
     padding-top: 50px;
     
@@ -94,6 +99,7 @@ footer{
     color: white;
     text-align: center;
     padding: 5px;
+    font-family: var(--font-primaria2);
 }
 
 a{

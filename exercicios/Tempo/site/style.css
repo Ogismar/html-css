@@ -40,14 +40,18 @@ header > h1{
     font-family: var(--font-primaria3);
     font-size: 4em;
     text-align: center;
-    padding-top: 50px;
-    
+    padding-top: 50px;   
+}
+
+span{
+    font-size: 100px;
 }
 
 nav{
     background-color: var(--cor5);
     padding: 10px;
     position: sticky;
+    box-shadow: 0px 7px 7px var(--cor6);
     
 }
 nav > a{
@@ -69,13 +73,14 @@ main{
     margin: auto;
     padding: 20px;
     background-color: var(--cor3);
-    border: 5px, 5px, 20pv var(--cor6);
     font-size: 1.3em;
+    box-shadow: 0px 5px 10px black;
+    text-align: justify;
 }
 
 aside{
     background-color: var(--cor5);
-    border: 5px, 5px, 10px black;
+    box-shadow: 0px 0px 5px 5px var(--cor6);
     margin-top: 20px;
     text-align: center;
     color: white;

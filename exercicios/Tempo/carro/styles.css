@@ -15,6 +15,7 @@ body{
     
 }
 header{
+    background-color: rgba(0, 255, 255, 0.37);
     position: fixed;
     width: 90vw;
     left: 50%;
@@ -58,6 +59,7 @@ section{
             inset: 0;
 
             & .car{
+                background-color: rgba(0, 255, 255, 0.342);
                 position: absolute;
                 top: 50%;
                 transform: translateY(-50%);
@@ -66,28 +68,74 @@ section{
                 & img{
                     width: 100%;
                     transform: rotate(-30deg);
+                    background-color: rgba(247, 0, 255, 0.507);
                 }
             }
             & .content{
+                background-color: rgba(0, 255, 255, 0.253);
                 position: absolute;
                 right: 100px;
                 width: 70%;
-                
+                height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: end;
                 align-items: end;
                 gap: 20px;
 
+                & .info-car{
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                & h2{
+                    font-size: 8em;
+                    line-height: 1em;
+                }
+                & .des{
+                    background-color: rgba(236, 104, 10, 0.507);
+                    color: rgb(25, 252, 63);
+                    font-size: 20px;
+                    text-align: right;
+                    max-width: 400px;
+                }
+            & .but{
+                background-color: rgb(5, 151, 196);
+                font-weight: bold;
+                text-transform: uppercase;
+                width: 100px;
+                height: 30px;
+                border: 2px solid rgb(47, 8, 83);
+                color: rgb(47, 8, 83);
+                cursor: pointer;
+                border-radius: 8px;
+                }
+
             }
         }
     }
-}
-
-.arrows{
-    & button{
-        & img{
-            width: 50px;
+    & .arrows{
+        & button{
+            & img{
+                width: 50px;
+            }
         }
     }
+
+    & . endicators{
+        background-color: rgba(223, 92, 40, 0.603);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 90vw;
+        height: 200px;
+        transform: translateX(-50px);
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap: 15px;
+
+        
+
+    }
 }
+

@@ -40,7 +40,7 @@ header{
 }
     
 section{
-    background-image: radial-gradient(#7f3d9e, #6d00d9);
+    background-image: radial-gradient(#7f3d9e80, #6d00d979);
     height: 100vh;
     position: relative;
 
@@ -137,9 +137,24 @@ section{
         & .number{
             font-size: 5em;
         }
+        
         & ul{
+            background-color: rgba(0, 0, 255, 0.555);
             display: flex;
-            flex-direction: column;
+            gap: 5px;
+
+            & li{
+                width: 100px;
+                height: 10px;
+                background-color: red;
+                
+            }
+            &.activo{
+                background-color: white;
+            }
+            
+
+        }
 
         }
 

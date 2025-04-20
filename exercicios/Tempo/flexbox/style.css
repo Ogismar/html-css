@@ -10,8 +10,8 @@
     width: 100vw;
     height: 100vh;
     background-color: blueviolet;
-    padding: 10px;
-    
+    display: flex;
+   
 
 
 }

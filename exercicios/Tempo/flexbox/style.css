@@ -7,31 +7,26 @@
 }
 
 .container{
+    background-color: blueviolet;
     width: 1000px;
     height: 1000px;
-    background-color: blueviolet;
-    display: inline-flex;
-    
-    flex-flow: column wrap;
-    
+    padding: 10px;
+    display: flex;
+    flex-wrap: ; 
 }
 .item{
    
     background-color: rgb(216, 21, 21);
     margin: 10px;
+    padding: 30px;
     width: 500px;
     height: 500px;
     font-size: 30px;
     text-align: center;
     border-radius: 10px;
-    padding: 30px;
-   
-    
-    
-    
-    
-    
-    
     
 
+}
+#oce{
+   background-color: aqua; 
 }

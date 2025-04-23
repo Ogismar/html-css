@@ -9,20 +9,21 @@
 
 body{
     background-color: rgba(227, 190, 235, 0.664);
-    height: 100vh;
+    height: 150vh;
     display: flex;
-    align-items: c;/*vestical
+    align-items: center;/*vestical*/
     justify-content: center;  /*horisontal*/
     
 }
 
 main{
-   
+   display: flex;
 }
 
 section{
     border: 2px solid rgba(238, 16, 16, 0.651);
     
+                          
     
 }
 
@@ -30,9 +31,12 @@ ul{
     margin: 30px;
     list-style: none;
     
+    
 }
 
 .salary{
+    text-align: center;
+    font-weight: bold;
   
 }
 

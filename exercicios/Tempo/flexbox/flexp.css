@@ -9,10 +9,11 @@
 
 body{
     background-color: rgba(227, 190, 235, 0.664);
-    height: auto;
+    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: c;/*vestical
+    justify-content: center;  /*horisontal*/
+    
 }
 
 main{
@@ -20,7 +21,8 @@ main{
 }
 
 section{
-    border: 2px solid rgba(0, 0, 0, 0.651);
+    border: 2px solid rgba(238, 16, 16, 0.651);
+    
     
 }
 

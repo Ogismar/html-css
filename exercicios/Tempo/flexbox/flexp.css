@@ -27,11 +27,22 @@ main{
 section{
     border: 2px solid rgba(238, 16, 16, 0.651);
     display: flex;
-    flex-basis:300px; 
+    flex-basis:250px; 
     flex-grow: 1; 
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
+section:nth-child(3) h2 {
+    background-color: blue;
+}      
+
+section:nth-child(1) section .salary {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   
+   
+   
+}  
 
 ul{
     background-color: rgba(0, 0, 255, 0.459);
@@ -41,11 +52,12 @@ ul{
 
 
 .salary{
-    background-color: rgba(127, 255, 212, 0.562);
+    background-color: rgba(127, 255, 
+    212, 0.562);
     text-align: center;
     font-weight: bold;
     display: flex;
-    align-items: end;
+    align-items: center;
     
 }
 

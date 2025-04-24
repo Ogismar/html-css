@@ -29,19 +29,24 @@ section{
     display: flex;
     flex-basis:300px; 
     flex-grow: 1; 
+    flex-direction: column;
     
 }
 
 ul{
+    background-color: rgba(0, 0, 255, 0.459);
     margin: 30px;
     list-style: none;     
 }
 
 
 .salary{
+    background-color: rgba(127, 255, 212, 0.562);
     text-align: center;
     font-weight: bold;
     display: flex;
+    align-items: end;
+    
 }
 
 h2{

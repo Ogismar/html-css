@@ -35,9 +35,9 @@ section:nth-child(3) h2 {
     background-color: blue;
 }      
 
-section:nth-child(1) section .salary {
+section:nth-child(1) .salary {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content: end;
    
    

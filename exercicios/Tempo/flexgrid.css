@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    color: white;
+    gap: 20px;
+    height: 100px;
+}
+
+a{
+    background-color: blueviolet;
+}
+
+nav{
+    background-color: blue;
+    
+    justify-content: end;
+    align-content: end;
+}
+.menu{
+    display: flex;
+    gap: 150px;
+    margin-right: 50px;
+    list-style: none;
+    
+}

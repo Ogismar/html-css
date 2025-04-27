@@ -9,24 +9,30 @@
     background-color: black;
     display: flex;
     color: white;
-    gap: 20px;
+    padding: 10px;
     height: 100px;
+    gap: 800px;
+    
 }
 
 a{
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 43);
+    align-content: center;
+    
 }
 
 nav{
     background-color: blue;
-    
     justify-content: end;
-    align-content: end;
+    align-content: center;
+    
 }
 .menu{
+    
     display: flex;
     gap: 150px;
-    margin-right: 50px;
     list-style: none;
+    font-weight: bold;
+
     
 }

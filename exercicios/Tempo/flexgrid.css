@@ -10,7 +10,7 @@
 }
 
 .header{
-   background-color: black;
+   
    flex-wrap: wrap;
    display: flex;
    justify-content: space-between;
@@ -19,13 +19,20 @@
    color: white;
 }
 
-.menu{
-   & li 
-   {
-   & a{
-    display: flex;
-   }
-    
-   }
-   
-}
+   .menu {
+      display: flex;
+      & li{
+         background-color: aqua;
+         margin-left: 5px;
+         
+         & a{
+            background-color: blue;
+            display: block;
+            padding: 10px;
+            
+         }
+      }
+  }
+  
+  
+

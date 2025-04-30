@@ -18,7 +18,13 @@
 
 }
 .menu{
-
+   display: flex;
+   & li{
+      margin: 10px;
+      & a{
+         padding: 5px;
+      }
+   }
 }
   
    

@@ -54,3 +54,7 @@ img{
    }
 
 }
+.grid1{
+   display: grid;
+   grid-template-rows: ;
+}

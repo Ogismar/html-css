@@ -56,5 +56,20 @@ img{
 }
 .grid1{
    display: grid;
-   grid-template-rows: ;
+   grid-template-columns: repeat(3, 1fr);
+   max-width: 780px;
+   margin: auto;
+   grid-gap: 20px;
+   & div:nth-child(n+4) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      grid-gap: 10px;
+   
+   }
+}
+.anuncio{
+   grid-column: 1;
+   grid-row: 2/5;
+   display: block;
 }

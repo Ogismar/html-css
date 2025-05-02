@@ -96,12 +96,15 @@ img{
 
 .grid2{
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   max-width: 800px;
+   grid-template-columns: 1fr 200px;
+   max-width: 790px;
    margin: auto;
+   padding: 30px;
    grid-gap: 20px;
-
+   & div.lado > div{
+      margin-bottom: 10px;
+   
+   }
+   
 }
-
-
 

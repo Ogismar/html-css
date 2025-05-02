@@ -60,6 +60,7 @@ img{
    max-width: 780px;
    margin: auto;
    grid-gap: 20px;
+   
    & div:nth-child(n+4) {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -67,9 +68,12 @@ img{
       grid-gap: 10px;
    
    }
-}
-.anuncio{
-   grid-column: 1;
-   grid-row: 2/5;
-   display: block;
+   & div.anuncio{
+      grid-column: 1;
+      grid-row: 2/5;
+      display: block;
+      align-content: center;
+      
+   }
+
 }

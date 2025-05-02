@@ -74,14 +74,34 @@ img{
       grid-column: 1;
       grid-row: 2/5;
       display: block;
-      align-content: center;
-      
+      align-content: center;  
    }
-   @media (max-width: 600px);
+
+}
+@media (max-width: 600px){
    .grid1{
+      grid-template-columns: repeat(2, 1fr);  
+      & div:nth-child(n+4) {
+         display: block;
+      }
+
+      & div.anuncio{
+            grid-column: 1;
+            grid-row: 2/4;
+            order: -1;
+
+      }
+}
+}
+
+.grid2{
+   display: grid;
    grid-template-columns: repeat(2, 1fr);
-   
+   max-width: 800px;
+   margin: auto;
+   grid-gap: 20px;
+
 }
-}
+
 
 

@@ -104,7 +104,13 @@ img{
    & div.lado > div{
       margin-bottom: 10px;
    
-   }
-   
+   } 
 }
+@media (max-width: 600px){
+   .grid2{
+   grid-template-columns: 1fr 1fr;
+}
+}
+   
+
 

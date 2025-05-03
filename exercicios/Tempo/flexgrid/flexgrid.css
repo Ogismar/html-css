@@ -108,8 +108,25 @@ img{
 }
 @media (max-width: 600px){
    .grid2{
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr ;
+   & div.lado{
+      display: flex;
+      overflow: scroll;
+   }
+   & div.lado > div{
+      flex: 1 0 200px;
+      margin: 10px;
+   }
 }
+}
+.grid3{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   max-width: 800px;
+   margin: auto;
+   grid-gap: 20px;
+
+
 }
    
 

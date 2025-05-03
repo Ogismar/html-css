@@ -125,6 +125,15 @@ img{
    max-width: 800px;
    margin: auto;
    grid-gap: 20px;
+   & div > p{
+      background-color: black;
+      color: white;
+   & div.lado > div{
+      grid-gap: 10px;
+   }
+   }
+
+   
 }
 
 

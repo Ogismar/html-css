@@ -122,16 +122,25 @@ img{
 .grid3{
    display: grid;
    grid-template-columns: 1fr 1fr;
-   max-width: 800px;
+   max-width: 790px;
    margin: auto;
    grid-gap: 20px;
+   padding: 30px;
+   & div.lado{
+      display: grid;
+      grid-gap: 20px;
+   }
    & div > p{
       background-color: black;
       color: white;
-   & div.lado > div{
-      grid-gap: 10px;
+      padding: 10px;
    }
+   & div.vid3{
+      grid-column: 1;
+      grid-row: 2/4;
    }
+   
+
 
    
 }

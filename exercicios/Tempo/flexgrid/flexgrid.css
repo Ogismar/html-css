@@ -135,9 +135,9 @@ img{
       color: white;
       padding: 10px;
    }
-   & div.vid3{
-      grid-column: 1;
-      grid-row: 2/4;
+   & div.vid3 >img{
+      display: grid;
+      grid-gap: 10px;
    }
    
 

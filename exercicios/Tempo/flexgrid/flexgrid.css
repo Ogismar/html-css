@@ -135,13 +135,9 @@ img{
       color: white;
       padding: 10px;
    }
-   & div.vid3 >img{
-      display: grid;
+   & div.vid3 > div{
       grid-gap: 10px;
    }
-   
-
-
    
 }
 

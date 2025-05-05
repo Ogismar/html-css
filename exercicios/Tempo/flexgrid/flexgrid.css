@@ -138,7 +138,7 @@ img{
       align-self: end;
       }
       & p{
-         background-color: rgba(0, 0, 0, 0.507);
+         background-color: rgba(112, 5, 5, 0.507);
          color: white;
          padding: 10px;
          grid-column: 1;

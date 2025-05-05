@@ -19,6 +19,9 @@ header{
         & a{
             font-size: 2rem;
         }
+        & img{
+            width: 100%;
+        } 
     }
       
     & ul{

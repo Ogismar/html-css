@@ -3,38 +3,36 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 header{
-    background-color: rgba(255, 7, 234, 0.664);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    & div {
-        margin-left:100px;
-        & a{
-            font-size: 2rem;
-        }
-        & img{
-            width: 100%;
-        } 
-    }
-      
-    & ul{
+     background-color: rgba(255, 7, 234, 0.664);
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+     align-items: center;
+     color: white;
+     & a{
+        font-size: 2rem;
+        margin-left: 100px;
+     }
+     & ul{
         display: flex;
         margin-right: 50px;
-        
         & li{
             margin-right: 100px;
-            font-size: 1.3rem;
-            
-            
         }
+     }
 
-    }
-    
 }
+
+
+
+
+
+
+
+   
+    

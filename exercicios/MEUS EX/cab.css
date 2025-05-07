@@ -33,30 +33,30 @@ header{
 
 h1{
     font-size: 2rem;
-    padding: 10px;
-    color: black;
     text-align: center;
-    margin-top: 20px;
-    
-} 
-   
-.todo {
+
+
+}
+
+.todo{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
-    margin: 0 auto;
+    width: 800px;
+    margin: auto;
     & div{
         flex: 1 1 200px;
         margin: 10px;
         & img{
-            max-width: 100%;
+            width: 100%;
             display: block;
         }
+        & p{
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
     }
-    
-    
 }
-
 
 
 

@@ -65,7 +65,10 @@ h1{
     max-width: 800px;
     grid-gap: 10px;
     margin: auto;
-    & div
+    & div:nth-child(n+4){
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 }
 
 

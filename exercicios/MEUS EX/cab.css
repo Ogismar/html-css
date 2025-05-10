@@ -50,30 +50,12 @@ h1{
         & img{
             width: 100%;
             display: block;
-        }
         & p{
             background-color: black;
             color: white;
             padding: 5px;
+            }
         }
     }
 }
 
-.seg{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 800px;
-    grid-gap: 10px;
-    margin: auto;
-    & div:nth-child(n+4){
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-    }
-}
-
-
-
-
-
-   
-    

@@ -39,3 +39,12 @@ h1{
     color: black;
 }
 
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    & div{
+        
+    }
+}

@@ -1,57 +1,16 @@
 @charset "UTF-8";
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
     list-style: none;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
+
 
 header{
-    background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    box-shadow: 0px 0px 20px rgb(61, 40, 40);
-    & div{
-        font-size: 2rem;
-        margin-left: 100px;
-    }
-    & ul {
-        display: flex;
-        margin: 30px;
-        & li{
-            margin-right: 50px;
-            font-size: 1.3rem;
-            padding: 10px;
-        }
-    }
-}
-h1{
-    color: black;  
-    text-align: center; 
-    margin-top: 50px;                                               
 }
 
-.todo{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: auto;
-    & div{
-        flex: 1 1 200px;
-        margin: 10px;
-        & img{
-            width: 100%;
-            display: block;
-        }
-        & p{
-            color: black;
-            font-weight: bold;
-            padding: 10px;
-        }
-    }
-}

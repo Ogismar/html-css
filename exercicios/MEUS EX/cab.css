@@ -22,13 +22,36 @@ header{
     }
     & ul {
         display: flex;
-        margin: 40px;
+        margin: 30px;
         & li{
             margin-right: 50px;
             font-size: 1.3rem;
+            padding: 10px;
         }
     }
 }
 h1{
-    
+    color: black;  
+    text-align: center; 
+    margin-top: 50px;                                               
+}
+
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    & div{
+        flex: 1 1 200px;
+        margin: 10px;
+        & img{
+            width: 100%;
+            display: block;
+        }
+        & p{
+            color: black;
+            font-weight: bold;
+            padding: 10px;
+        }
+    }
 }

@@ -26,10 +26,10 @@ header{
     & ul{
         display: flex;
         margin-right: 100px;
-    & li{
-        margin-right: 50px;
-        font-size: 1.3rem;
-    }
+        & li{
+            margin-right: 50px;
+            font-size: 1.3rem;
+            }
     }
 }
 
@@ -39,7 +39,7 @@ h1{
     color: black;
 }
 
-.todo{
+/*.todo{
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
@@ -58,4 +58,18 @@ h1{
         }
     }
    
+}*/
+
+/* sextion flexgrid*/
+
+.nada {
+    & div{
+        & img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 800px;
+        margin: auto;
+        }
+    }
+
 }

@@ -39,7 +39,7 @@ h1{
     color: black;
 }
 
-/*.todo{
+.todo{
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
@@ -58,18 +58,34 @@ h1{
         }
     }
    
-}*/
+}
 
 /* sextion flexgrid*/
 
-.nada {
-    & div{
-        & img{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        max-width: 800px;
-        margin: auto;
-        }
+.flor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 790px;
+    margin: auto;
+    grid-gap: 10px;
+    
+    & img {
+    width: 100%;
+    display: block;
+    box-shadow: 0px 0px 5px black;
+    & p{
+        color: black;
+        padding: 10px;
     }
-
+        
 }
+    & div:nth-chil(n+4){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+    
+}
+
+
+

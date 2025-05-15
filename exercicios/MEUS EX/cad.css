@@ -1,0 +1,21 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+header{
+    & .cad1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & #cad2{
+        align-items: center;
+    }
+}

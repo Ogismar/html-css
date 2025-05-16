@@ -11,11 +11,17 @@
 }
 
 header{
+    background-color: rgba(0, 0, 0, 0.253);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
     & .cad1{
+        background-color: rgba(0, 0, 255, 0.288);
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+        width: 1400px;
         & div{
             margin-left: 100px;
             font-size: 2rem;
@@ -29,7 +35,10 @@ header{
             }
         }
     }
-    & #cad{
-        
+    & .asa{
+        background-color: rgba(165, 42, 42, 0.315);
+        padding: 10px;
+        font-size: 2rem;
     }
+    
 }

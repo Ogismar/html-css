@@ -5,6 +5,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
     
 
 }
@@ -14,8 +15,21 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 20px;
+        & div{
+            margin-left: 100px;
+            font-size: 2rem;
+        }
+        & ul{
+            display: flex;
+            margin-right: 100px;
+            & li{
+                margin-right: 100px;
+                font-size: 1.3rem;
+            }
+        }
     }
-    & #cad2{
-        align-items: center;
+    & #cad{
+        
     }
 }

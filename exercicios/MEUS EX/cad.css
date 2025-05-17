@@ -6,22 +6,21 @@
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-    
-
+    font-weight: bold;
+    color: white;
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
     & .cad1{
-        background-color: rgba(0, 0, 255, 0.288);
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
-        width: 1400px;
+        width: auto;
         & div{
             margin-left: 100px;
             font-size: 2rem;
@@ -36,9 +35,32 @@ header{
         }
     }
     & .asa{
-        background-color: rgba(165, 42, 42, 0.315);
         padding: 10px;
         font-size: 2rem;
+        color: rgb(247, 8, 8);
+        
+          
+    }
+    
+}
+
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    & div{
+        flex: 1 1 200px;
+        margin: 10px;
+        & img{
+        max-width: 100%;
+        display: block;
+        }
+        & p{
+            padding: 5px;
+            color: black;
+            text-align: center;
+        }
     }
     
 }

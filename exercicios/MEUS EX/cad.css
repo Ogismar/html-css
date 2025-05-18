@@ -15,9 +15,7 @@ h1{
    margin-top: 20px;
    color: black;
 }
-    
 
- 
 
 header{
     background-color: rgb(0, 0, 0);
@@ -29,7 +27,7 @@ header{
         justify-content: space-between;
         align-items: center;
         padding: 20px;
-        width: auto;
+        max-width: auto;
         & div{
             margin-left: 100px;
             font-size: 2rem;
@@ -80,11 +78,18 @@ header{
     max-width: 800px;
     margin: auto;
     grid-gap: 10px;
-    & img{
+    
+    & div:nth-child(n+5){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-gap: 10px;
+        & img{
         max-width: 100%;
-    }
-    & p{
-        color: black;
-        padding: 5px;
+        }
+        & p{
+            color: black;
+            padding: 5px;
+        }
     }
 }

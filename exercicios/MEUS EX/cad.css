@@ -78,18 +78,23 @@ header{
     max-width: 800px;
     margin: auto;
     grid-gap: 10px;
-    
-    & div:nth-child(n+5){
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        grid-gap: 10px;
+
+    & div{
         & img{
         max-width: 100%;
+        
         }
         & p{
             color: black;
             padding: 5px;
         }
+    }
+    
+    & div:nth-child(n+4){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-gap: 10px;
+ 
     }
 }

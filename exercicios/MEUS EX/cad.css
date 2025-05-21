@@ -103,3 +103,18 @@ header{
         
     }
 }
+
+@media (max-wedth: 600px){
+    .nada{
+        grid-template-columns: 1fr 1fr;
+        & div:nth-child(n+4){
+        display: block;
+        }
+        & .one{
+        grid-column: 1;
+        grid-row: 2/5;
+        order: -1;
+        }
+
+}
+}

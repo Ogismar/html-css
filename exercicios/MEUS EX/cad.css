@@ -126,6 +126,6 @@ header{
     margin: auto;
     grid-gap: 10px;
     & img{
-        width: 100%;
+        max-width: 100%;
     }
 }

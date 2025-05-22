@@ -122,4 +122,10 @@ header{
 .nada2{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: auto;
+    grid-gap: 10px;
+    & img{
+        width: 100%;
+    }
 }

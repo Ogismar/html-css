@@ -135,5 +135,11 @@ header{
     grid-template-columns: 1fr 1fr;
     max-width: 800px;
     margin: auto;
-
+    & div{
+        grid-gap: 10px;
+        & img{
+        width: 100%;
+        }
+    }
+   
 }

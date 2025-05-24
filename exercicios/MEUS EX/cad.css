@@ -136,9 +136,14 @@ header{
     max-width: 800px;
     margin: auto;
     & div{
-        width: 100%;
         grid-gap: 10px;
-        
+        & img{
+            max-width: 100%;   
+        }
+        & p{
+            background-color: rgba(151, 37, 37, 0.411);
+            color: black;
+            padding: 5px;
     }
    
 }

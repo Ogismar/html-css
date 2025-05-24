@@ -135,15 +135,14 @@ header{
     grid-template-columns: 1fr 1fr;
     max-width: 800px;
     margin: auto;
-    & div{
-        grid-gap: 10px;
-        & img{
-            max-width: 100%;   
-        }
-        & p{
-            background-color: rgba(151, 37, 37, 0.411);
-            color: black;
-            padding: 5px;
+    grid-gap: 10px;    
+    & img{
+        max-width: 100%;   
+    }
+    & p{
+        background-color: rgba(151, 37, 37, 0.411);
+        color: black;
+        padding: 5px;
     }
    
 }

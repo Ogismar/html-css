@@ -136,20 +136,23 @@ header{
     max-width: 800px;
     margin: auto;
     grid-gap: 20px;
-    & .div:nth-child(1){
+    & one:nth-child(1){
         grid-column: 1;
-        grid-row: 1/2;
+        grid-row: 1/3;
     }
-    & img{
-        max-width: 100%; 
-        display: block;  
-    }
-    & p{
-        background-color: rgba(151, 37, 37, 0.411);
-        color: black;
-        padding: 5px;
-        text-align: center;
-        
-    }
-   
+    
+    & .one{
+        display: grid;
+        & img{
+            grid-column: 1;  
+            grid-row: 1/3;
+            align-items: end;
+        }
+        & p{
+            background-color: rgba(151, 37, 37, 0.411);
+            color: black;
+            padding: 5px;
+            text-align: center;   
+        }
+    }  
 }

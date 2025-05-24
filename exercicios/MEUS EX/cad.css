@@ -135,7 +135,8 @@ header{
     grid-template-columns: 1fr 1fr;
     max-width: 800px;
     margin: auto;
-    grid-gap: 10px;    
+    grid-gap: 20px; 
+       
     & img{
         max-width: 100%;   
     }
@@ -143,6 +144,8 @@ header{
         background-color: rgba(151, 37, 37, 0.411);
         color: black;
         padding: 5px;
+        text-align: center;
+        
     }
    
 }

@@ -136,9 +136,9 @@ header{
     max-width: 800px;
     margin: auto;
     grid-gap: 20px; 
-       
     & img{
-        max-width: 100%;   
+        max-width: 100%; 
+        display: block;  
     }
     & p{
         background-color: rgba(151, 37, 37, 0.411);

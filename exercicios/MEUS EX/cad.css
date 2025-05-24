@@ -136,10 +136,9 @@ header{
     max-width: 800px;
     margin: auto;
     & div{
-        grid-gap: 10px;
-        & img{
         width: 100%;
-        }
+        grid-gap: 10px;
+        
     }
    
 }

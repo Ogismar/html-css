@@ -140,6 +140,10 @@ header{
         & div{
             display: flex;
             overflow: scroll;
+            & img{
+                flex: 1 1 200px;
+                margin: 10px;
+            }
         }
 } 
 }

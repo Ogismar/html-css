@@ -80,7 +80,6 @@ header{
     & div{
         & img{
         max-width: 100%;
-        
         }
         & p{
             color: black;
@@ -134,6 +133,17 @@ header{
         text-align: center;                  
     }
 }
+
+@media (max-width: 600px ){
+    .nada2{
+        grid-template-columns: 1fr 1fr;
+        & div{
+            display: flex;
+            overflow: scroll;
+        }
+} 
+}
+                    
 
 .nada3{
     display: grid;

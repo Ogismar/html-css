@@ -158,6 +158,7 @@ header{
     & .one:nth-child(1){
         grid-column: 1;
         grid-row: 1/3;
+        
     }
     & .one{
         display: grid;
@@ -172,9 +173,9 @@ header{
             color: black;
             grid-column: 1;
             grid-row: 2/3;
-            align-self: end;
             padding: 10px;
             text-align: center;
+            align-self: end;
         }
     }
     

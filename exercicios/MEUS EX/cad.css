@@ -181,3 +181,10 @@ header{
     
     
 } 
+
+.todo2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 800px;
+    margin: auto;
+}

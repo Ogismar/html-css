@@ -187,5 +187,15 @@ header{
     flex-wrap: wrap;
     margin: 800px;
     margin: auto;
-    padding: 30px;
+}   & div{
+    flex: 1 1 200px;
+    margin: 10px;
+    & img{
+        max-width: 100%;
+        display: block;
+    }
+    & p {
+      color: black;
+      padding: 5px;
+    }
 }

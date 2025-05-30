@@ -188,13 +188,14 @@ header{
     max-width: 780px;
     margin: auto;
    & div{
-    flex: 1 1 300px;
+    flex: 1 1 200px;
     margin: 10px;
         & img{
         max-width: 100%;
         display: block;
         }
         & p {
+        background-color: rgba(137, 43, 226, 0.644);
         color: black;
         padding: 5px;
         text-align: center;
@@ -202,3 +203,16 @@ header{
     }
 }
 
+.todo3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 790px;
+    margin: auto;
+    grid-gap: 10px;
+    & img{
+        max-width:100%;
+            
+    }
+        
+    
+}

@@ -185,14 +185,14 @@ header{
 .todo2{
     display: flex;
     flex-wrap: wrap;
-    margin: 800px;
+    max-width: 780px;
     margin: auto;
    & div{
-    flex: 1 1 200px;
+    flex: 1 1 300px;
     margin: 10px;
         & img{
-            max-width: 100%;
-            display: block;
+        max-width: 100%;
+        display: block;
         }
         & p {
         color: black;

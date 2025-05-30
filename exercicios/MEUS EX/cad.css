@@ -210,9 +210,11 @@ header{
     margin: auto;
     grid-gap: 10px;
     & img{
-        max-width:100%;     
+        max-width:100%;
+        display: block;     
     }
     & p{
+        background-color: rgba(137, 43, 226, 0.486);
         color: black;
         padding: 5px;
         text-align: center;

@@ -8,11 +8,19 @@
     list-style: none;
 }
 
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
 header{
-    & cad1{
-        display: flex;
-        justify-content: space-between;
-    }}
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    color: white;
     
 
 }
+

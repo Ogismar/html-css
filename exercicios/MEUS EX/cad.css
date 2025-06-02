@@ -37,8 +37,8 @@ header{
 .todo{
     display: flex;
     flex-wrap: wrap;
-    min-width: 8cqi;
-    margin: auto;
+    min-width: 800px;
+    margin: 100px;
     & div{
         flex: 1 1 200px;
         margin: 10px;

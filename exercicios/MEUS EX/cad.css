@@ -34,3 +34,17 @@ header{
 
 }
 
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 800px;
+    margin: auto;
+    & div{
+        flex: 1 1 200px;
+        margin: 10px;
+        & img{
+            width: 100%;
+        }
+    }
+}
+

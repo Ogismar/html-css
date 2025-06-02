@@ -47,6 +47,23 @@ header{
             display: block;
         }
         & p{
+            padding: 10px;
+            text-align: center;
+        }
+    }
+}
+
+.nada{
+    display: grid;
+    grid-template-columns: repeat(3, ifr);
+    max-width: 800px;
+    margin: auto;
+    &  div{
+        grid-gap: 10px;
+        & img{
+            max-width: 100%;
+        }
+        & p{
             padding: 5px;
             text-align: center;
         }

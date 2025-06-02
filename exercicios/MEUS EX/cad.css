@@ -37,13 +37,18 @@ header{
 .todo{
     display: flex;
     flex-wrap: wrap;
-    min-width: 800px;
+    min-width: 8cqi;
     margin: auto;
     & div{
         flex: 1 1 200px;
         margin: 10px;
         & img{
-            width: 100%;
+            max-width: 100%;
+            display: block;
+        }
+        & p{
+            padding: 5px;
+            text-align: center;
         }
     }
 }

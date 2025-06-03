@@ -39,11 +39,11 @@ h1{
     flex-wrap: wrap;
     margin: 800px;
     margin: auto;
-    & img{
-        flex: 1 1 200px;
-        margin: 10px;
-    }
-    & p{
-        
-    }
+        & img{
+            flex: 1 1 200px;
+            margin: 10px;
+        }
+        & p{
+
+        }
 }

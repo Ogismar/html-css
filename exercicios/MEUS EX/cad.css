@@ -38,12 +38,13 @@ h1{
     display: flex;
     flex-wrap: wrap;
     margin: 800px;
-    margin: auto;
-        & img{
+    margin: 100px;
+        & div{
             flex: 1 1 200px;
             margin: 10px;
+            & img {
+                max-width: 100%;
+            }
         }
-        & p{
-
-        }
+        
 }

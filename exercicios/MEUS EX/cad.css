@@ -37,7 +37,7 @@ h1{
 .todo{
     display: flex;
     flex-wrap: wrap;
-    margin: 800px;
+    max-width: 800px;
     margin: 100px;
         & div{
             flex: 1 1 200px;
@@ -56,7 +56,7 @@ h1{
 
 .nada{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 800px;
     margin: auto;
     grid-gap: 20px;
@@ -66,5 +66,8 @@ h1{
         align-items: center;
         grid-gap: 10px;
     }
-
+    & .one{
+        grid-column: 1;
+        grid-row: 1/3;
+    }
 }

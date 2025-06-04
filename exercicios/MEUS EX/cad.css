@@ -44,7 +44,27 @@ h1{
             margin: 10px;
             & img {
                 max-width: 100%;
+                display: block;
+            }
+            & p{
+                text-align: center;
+                padding: 5px;
             }
         }
         
+}
+
+.nada{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: auto;
+    grid-gap: 20px;
+    & img{
+        max-width: 100%;
+    }
+    & p{
+        text-align: center;
+    }
+
 }

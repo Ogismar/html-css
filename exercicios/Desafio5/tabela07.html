@@ -10,11 +10,23 @@
                 & tr{
                     background-color: rgb(21, 21, 146);
                     color: white;
-                    padding: 5px;
+                    & th{
+                        padding: 5px;
+                    }
+                    
                 }
             }
-            tbody{
-
+            & tbody{
+                & tr:nth-child(odd){
+                    background-color: rgb(171, 122, 218);
+                    & td{
+                        padding: 5px;
+                    }
+                }
+                & tr:nth-child(even){
+                    background-color: rgb(121, 37, 201);
+                    padding: 5px;
+                }
             }
         }
     </style>

@@ -7,29 +7,10 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-        }
-        table{
-            width: 500px;
-            border-collapse: collapse;
-        }
-        th, td{
-            border: 1px solid  black;
-            padding: 10px;
-        }
-        .nome{
-            background-color: blueviolet;
-        }
-       /* .idade{
-            background-color: brown;
-        }
-        .sexo{
-            background-color: brown;
-        }*/
-        .prof{
-            background-color: aquamarine;
-        }
-        .grup{
-            background-color: rgb(233, 74, 74);
+            & re{
+                display: block;
+                margin: auto;
+            }
         }
     </style>
 </head>
@@ -47,80 +28,9 @@
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias sit eligendi dolores, accusamus nemo itaque aliquam odit ullam natus dignissimos maxime dolore labore autem? Quam odio placeat ipsa maxime unde!
     </p>
     <h2>Aframe de site interno</h2>
-    <iframe src="pagina001.html" frameborder="0" height="400px"></iframe>
+    <iframe class="re" src="pagina001.html" frameborder="0" height="600px" width="540px"></iframe>
     <a href="pagina001.html"></a>
     
-    <table>
-        <colgroup>
-            <col class="nome">
-            <!--<col class="idade">
-            <col class="sexo">-->
-            <col class="grup"  span="2n">
-            <col class="prof">
-            
-
-        </colgroup>
-        <caption>Cadastro</caption>
-        <tr>
-            <th scope="col">Nome</th>
-            <th scope="col">Idade</th>
-            <th scope="col">Sexo</th>
-            <th scope="col">Profissao</th>
-        </tr>
-        <tr>
-            <td>Maria</td>
-            <td>25</td>
-            <td>F</td>
-            <td>Domestica</td>
-        </tr>
-        <tr>
-            <td>Joao</td>
-            <td>23</td>
-            <td>M</td>
-            <td>Pedreiro</td>
-        </tr>
-        <tr>
-            <td>Maurício</td>
-            <td>27</td>
-            <td>M</td>
-            <td>Padeiro</td>
-        </tr>
-        <tr>
-            <td>Ana Maria'</td>
-            <td>25</td>
-            <td>F</td>
-            <td>Jornalista</td>
-        </tr>
-        <tr>
-            <td>Claudio</td>
-            <td>28</td>
-            <td>M</td>
-            <td>Programador</td>
-        </tr>
-        <tr>
-            <td>Gustavo</td>
-            <td>42</td>
-            <td>M</td>
-            <td>Professor</td>
-        </tr>
-        <tr>
-            <td>Hélio</td>
-            <td>19</td>
-            <td>M</td>
-            <td>Vendedor</td>
-        </tr>
-        <tr>
-            <td>Meire</td>
-            <td>39</td>
-            <td>F</td>
-            <td>Médica</td>
-        </tr>
-        <tr>
-            <td>Otávio</td>
-            <td>22</td>
-            <td>M</td>
-            <td>Nutricionista</td>
-        </tr>
-    </table>
+    
 </body>
 </html>

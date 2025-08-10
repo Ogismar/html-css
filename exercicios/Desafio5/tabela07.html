@@ -47,27 +47,27 @@
                 }
             }
         }
-    & table{
-        margin: auto;
-        & caption{
-                color: rgb(171, 122, 218);
-                font-size: 2rem;
-                margin-top: 20px;
-        }
-        & thead{
-            
-            & th{
-                background-color: rgb(13, 13, 192);
+        & table{
+            margin: auto;
+            & caption{
+                    color: rgb(171, 122, 218);
+                    font-size: 2rem;
+                    margin-top: 20px;
+            }
+            & thead{
+                
+                & th{
+                    background-color: rgb(13, 13, 192);
+                    color: white;
+                    padding: 4px;
+                    text-align: center;
+                }
+            }
+            & tbody{
                 color: white;
                 padding: 4px;
-                text-align: center;
-            }
-        }
-        & tbody{
-            color: white;
-            padding: 4px;
-            & tr:nth-child(odd){
-                background-color: rgb(171, 122, 218);
+                & tr:nth-child(odd){
+                    background-color: rgb(171, 122, 218);
                 
             }
             & tr:nth-child(even){
@@ -81,8 +81,8 @@
             & .nome{
                 text-align: left;
             }
+            }
         }
-    }
     }
     
 
@@ -306,8 +306,8 @@
     <h1>Site de notícias mais acessado</h1>
     <iframe src="https://g1.globo.com/" frameborder="0"></iframe>
     <h1>Videos de música favoritos</h1>
-    <iframe src="https://www.youtube.com/embed/53N99Nim6WE?si=oHnXa5-ZxfGDxjcW" frameborder="0"></iframe>
+    <iframe class="video" src="https://www.youtube.com/embed/53N99Nim6WE?si=oHnXa5-ZxfGDxjcW" frameborder="0"></iframe>
     <h1>Videos de games favorito</h1>
-    <iframe src="https://www.youtube.com/embed/2W7cEe3oLvg?si=cvfvOZ__i80WYWY1" frameborder="0"></iframe>
+    <iframe class="video" src="https://www.youtube.com/embed/2W7cEe3oLvg?si=cvfvOZ__i80WYWY1" frameborder="0"></iframe>
 </body>
 </html>

@@ -6,22 +6,24 @@
     <title>tabela 08</title>     
      <style>
         body{
-        & thead{
-                color: white;
-            & tr{
-                background-color: rgb(22, 22, 155);
-                color: white;
+            & table{
+                & thead{
+                        color: white;
+                    & tr{
+                        background-color: rgb(22, 22, 155);
+                        color: white;
+                    }
+                }
+                & tbody{
+                    & tr:nth-child(odd){
+                        background-color: rgb(171, 122, 218);
+                    }
+                    & tr:nth-child(even){
+                        background-color: rgb(121, 37, 201);
+                    }
+                }
             }
         }
-        & tbody{
-            & tr:nth-child(odd){
-                background-color: rgb(171, 122, 218);
-            }
-            & tr:nth-child(even){
-                background-color: rgb(121, 37, 201);
-            }
-        }
-    }
      </style>
 </head>
 <body>
